@@ -1,0 +1,211 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?o8p384');
+	src:url('../fonts/icomoon.eot?#iefixo8p384') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?o8p384') format('woff'),
+		url('../fonts/icomoon.ttf?o8p384') format('truetype'),
+		url('../fonts/icomoon.svg?o8p384#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-checkmark:before {
+	content: "\e606";
+}
+.icon-x:before {
+	content: "\e607";
+}
+.icon-mail:before {
+	content: "\e618";
+}
+.icon-arrow-left:before {
+	content: "\e608";
+}
+.icon-arrow-right:before {
+	content: "\e609";
+}
+.icon-cd:before {
+	content: "\e612";
+}
+.icon-clock3:before {
+	content: "\e611";
+}
+.icon-cloudy:before {
+	content: "\e602";
+}
+.icon-rainy2:before {
+	content: "\e604";
+}
+.icon-cloudy2:before {
+	content: "\e603";
+}
+.icon-rainy:before {
+	content: "\e601";
+}
+.icon-home:before {
+	content: "\e600";
+}
+.icon-pencil:before {
+	content: "\e610";
+}
+.icon-file:before {
+	content: "\e60f";
+}
+.icon-clock:before {
+	content: "\e60d";
+}
+.icon-clock2:before {
+	content: "\e60e";
+}
+.icon-user:before {
+	content: "\e60a";
+}
+.icon-user2:before {
+	content: "\e60b";
+}
+.icon-user3:before {
+	content: "\e60c";
+}
+.icon-pie:before {
+	content: "\e619";
+}
+.icon-stats:before {
+	content: "\e61a";
+}
+.icon-bars:before {
+	content: "\e61b";
+}
+.icon-switch:before {
+	content: "\e61c";
+}
+.icon-flag:before {
+	content: "\e61d";
+}
+.icon-thumbs-up:before {
+	content: "\e61e";
+}
+.icon-thumbs-up2:before {
+	content: "\e61f";
+}
+.icon-warning:before {
+	content: "\e620";
+}
+.icon-notification:before {
+	content: "\e621";
+}
+.icon-info:before {
+	content: "\e622";
+}
+.icon-info2:before {
+	content: "\e623";
+}
+.icon-checkbox-checked:before {
+	content: "\e624";
+}
+.icon-checkbox-unchecked:before {
+	content: "\e625";
+}
+.icon-tools:before {
+	content: "\e033";
+}
+.icon-bookmark:before {
+	content: "\e614";
+}
+.icon-pencil2:before {
+	content: "\e615";
+}
+.icon-arrow-left2:before {
+	content: "\e616";
+}
+.icon-arrow-right2:before {
+	content: "\e617";
+}
+.icon-thumbs-up3:before {
+	content: "\e626";
+}
+.icon-thumbs-down:before {
+	content: "\e627";
+}
+.icon-save:before {
+	content: "\e628";
+}
+.icon-reorder:before {
+	content: "\e613";
+}
+.icon-envelope-alt:before {
+	content: "\e629";
+}
+.icon-thumbs-up4:before {
+	content: "\e62a";
+}
+.icon-thumbs-down2:before {
+	content: "\e62b";
+}
+.icon-droplets:before {
+	content: "\e605";
+}
+.icon-disk:before {
+	content: "\e62c";
+}
+
+
+
+/* Effect */
+.icon-effect {
+	-webkit-transition: box-shadow 0.2s;
+	-moz-transition: box-shadow 0.2s;
+	transition: box-shadow 0.2s;
+}
+
+.icon-effect:after {
+	top: 0;
+	left: 0;
+	padding: 0;
+	box-shadow: 0 0 0 3px #fff;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	transition: transform 0.2s, opacity 0.2s;
+}
+
+.icon-effect:hover:after {
+	-webkit-transform: scale(0.85);
+	-moz-transform: scale(0.85);
+	-ms-transform: scale(0.85);
+	transform: scale(0.85);
+}
+
+.icon-effect:hover {
+	background: rgba(255,255,255,1);
+	box-shadow: 0 0 0 10px rgba(255,255,255,0.4);
+	color: #47a3da;
+}
+
+.iconwhite-effect:hover {
+	background: rgba(255,255,255,1);
+	box-shadow: 0 0 0 10px #47a3da;
+	color: #2980b9;
+}
+
+.iconwhite-small-effect:hover {
+	background: rgba(255,255,255,1);
+	box-shadow: 0 0 0 5px #47a3da;
+	color: #2980b9;
+}
+
+.iconwhite-small-effect:active {
+	color: #555;
+}
